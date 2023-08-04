@@ -1,0 +1,8 @@
+#loginModal {
+  display: none;
+  background-color: white;
+}
+
+.navbar-nav {
+  transition: all 0.5s ease;
+}

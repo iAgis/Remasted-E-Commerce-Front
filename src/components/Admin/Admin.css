@@ -1,0 +1,44 @@
+.bg-dark-t1 {
+  background-color: #0c0c0c;
+}
+
+.btn-bg-dark-t1:hover {
+  background-color: #0c0c0ccc;
+}
+
+.adminContract {
+  transition: 0.3s;
+}
+
+.adminContract:hover {
+  transform: scale(0.9);
+  box-shadow: 0 0 4px #fff;
+}
+
+@keyframes animToLeft {
+  from {
+    transform: translateX(-20rem);
+  }
+  to {
+    transform: translateX(0rem);
+  }
+}
+
+.adminTransitionLeftNavbar {
+  animation-duration: 2s;
+  animation-name: animToLeft;
+}
+
+@keyframes animToBottom {
+  from {
+    transform: translateY(-3rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
+}
+
+.adminTransitionBottomNavbar {
+  animation-duration: 2s;
+  animation-name: animToBottom;
+}
